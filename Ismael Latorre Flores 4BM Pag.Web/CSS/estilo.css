@@ -1,0 +1,31 @@
+head{
+	background-color:aqua;
+
+
+}
+body{
+	background-color:aqua;
+	/*background-image: url(imagenJordan.jpg);*/
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+h1{
+background-color:aqua;
+
+}
+article{
+	background-color: aqua;
+
+}
+section{
+	background-color:aqua;
+}
+nav{
+	background: aqua;
+	color: red;
+}
+h2{
+	background-color:aqua;
+}
