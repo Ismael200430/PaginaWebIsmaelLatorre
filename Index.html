@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta https-equiv="X_UA_Compatible" contente="IE=edge">
+<title>PRIMEROS PASOS CON HTML</title>
+<meta name="description" content="Una guia interactiva de primeros pasos en HTML.">
+<link rel="stylesheet" href="CSS/estilo.css">
+
+<style type="text/css">
+.menu{
+ list-style:none;
+padding:0px 5px 10px;
+margin:10px;
+}
+.menu li{
+margin:3px;
+padding:3px;
+float:left;
+position:relative;
+box-shadow: 2px 2px 4px 1px #DF0101;
+}
+.menu li a{
+display: block;
+width: 110px;
+height: 30px;
+padding: 6px;
+line-height:30px;
+text-decoration: none;
+text-align: center;
+color: #ECF0F1;
+background-color: #168704;
+position: relative;
+border-left: 2px solid #333;
+}
+.menu li a:hover{
+color:#34495E;
+background-color:#58D68D;
+}
+ </style>
+ <style>
+ .menu ul{
+ position:absolute;
+left:10px;
+top:36px;
+margin:0px;
+list-style:none;
+padding:0px;
+opacity:0;
+transition:opacity .35s ease .2s;
+-webkit-transition:opacity .35s ease .2s;
+-moz-transition:opacity .35s ease .2s;
+-o-transition:opacity .35s ease .2s;
+visibility:hidden;
+}
+.menu ul li a{
+border-bottom:2px solid #333;
+border-left:none;
+display:block;
+text-align:center;
+}
+ </style>
+ <style>
+.menu li:hover ul{
+ opacity:1;
+visibility:visible;
+}
+
+ </style>
+
+</head>
+<body>
+  <nav>
+<ul class="menu" >
+ <li> <a href="Index.html" target="Complementos/Principal2.html" >Inicio</a></li>
+ <li> <a href="file:///C:/Users/Admin/Documents/ProgramasHTML/QuienesSomos.htlm.html" target="contenido">Quienes Somos</a></li>
+ <li> <a href="">Galeria</a>
+ <ul>
+ <li> <a href="Complementos/FotoVideo.html" target="contenido">Fotos y Videos</a></li>
+ <li> <a href="Complementos/Prod.html" target="contenido">Productos</a></li>
+ </ul>
+
+ <li> <a href="Contacto/contacto.html" target="contenido">Contactanos</a> </li>
+ </ul>
+</nav>
+
+       <h1>
+    <a href="https://www.youtube.com/watch?v=4Scbk21_BM8"><center><img src="Complementos/ImagenEnc.png"width="100%" height="100%"></center></a>
+
+    <!--<img src="imagenJordan.jpg" width="10%", height="20%"><font size=+13 face=arial color=BLUE><center><strong></strong>VENTA DE BALONES EL "CUYITO"</center></font>--->
+   </h1><br>
+    <!--<h1>
+  	<a href="https://www.youtube.com/watch?v=4Scbk21_BM8"><center><img src="Balon.jpg"width="30%" height="15%"></center></a>
+
+    <img src="imagenJordan.jpg" width="10%", height="20%"><font size=+13 face=arial color=BLUE><center><strong></strong>VENTA DE BALONES EL "CUYITO"</center></font>
+
+    </h1><br>--->
+  
+  <!--<nav>
+  <ul class="menu">
+
+ <li><a href="file:///C:/Users/Admin/Documents/ProgramasHTML/PrimerPrograma.html"> Inicio  </a></li>
+ <li><a href="file:///C:/Users/Admin/Documents/ProgramasHTML/QuienesSomos.htlm.html"> Quienes somos </a></li>
+ <li><a href="file:///C:/Users/Admin/Documents/ProgramasHTML/contacto.html"> Contacto </a></li>
+   
+   </ul>
+   </nav><br><br>--->
+
+  <marquee scrollamount="20" scrolldelay="50" behavior="scroll"><H2 ALIGN="CENTER"><FONT SIZE= +6 FACE=TIMESNEWROMAN COLOR="#D6353B">CON LA MEJOR CALIDAD PARA TI</H2> </FONT></marquee>
+  <!--<P ALIGN="RIGTH"><FONT SIZE= +6 FACE=ARIAL COLOR=RED> HOLA MUNDO </P> </FONT>--->
+
+
+  <!--<main>
+  <section>
+  <article> contenido </article>
+  <article> contenido </article>
+  <ASIDE>contenido</ASIDE> </section>
+  </main>
+
+  <table border="4">
+  <tr>
+  	<td> DIA Y HORA</td>
+  	<td> LUNES </td>
+  	<td> MARTES </td>
+  	<td> MIERCOLES </td>
+  	<td> JUEVES </td>
+  	<td> VIERNES </td>
+
+  </tr>
+ <tr>
+  	<td> 7-8</td>
+  	<td> DESARROLLA APLICACIONES CON EL SERVIDOR</td>
+  	<td> DESARROLLA APLICACIONES CON EL CLIENTE</td>
+  	<td> INGLES IV</td>
+  	<td> CALCULO DIFERENCIAL</td>
+  	<td> CALCULO DIFERENCIAL</td>
+
+  </tr>
+
+   <tr>
+  	<td> 8-9</td>
+  	<td> DESARROLLA APLICACIONES CON EL SERVIDOR</td>
+  	<td> DESARROLLA APLICACIONES CON EL CLIENTE</td>
+  	<td> DESARROLLA APLICACIONES CON EL SERVIDOR</td>
+  	<td> ECOLOGIA</td>
+  	<td> FISICA 1</td>
+
+  </tr>
+   <tr>
+  	<td> 9-10</td>
+  	<td> DESARROLLA APLICACIONES CON EL SERVIDOR</td>
+  	<td> INGLES IV</td>
+  	<td> DESARROLLA APLICACIONES CON EL SERVIDOR</td>
+  	<td> TUTORIA</td>
+  	<td> DESARROLLO DE PROYECTOS</td>
+
+  </tr>
+
+   <tr>
+  	<td> 10-11</td>
+  	<td> CALCULO DIFERENCIAL</td>
+  	<td> CALCULO DIFERENCIAL</td>
+  	<td> DESARROLLA APLICACIONES CON EL SERVIDOR</td>
+  	<td> FISICA 1</td>
+  	<td> DESARROLLA APLICACIONES CON EL CLIENTE</td>
+
+  </tr>
+
+   <tr>
+  	<td> 11-12</td>
+  	<td> FISICA 1</td>
+  	<td> CONSTRUYE PAGINAS WEB</td>
+  	<td> DESARROLLA APLICACIONES CON EL SERVIDOR</td>
+  	<td> INGLES IV</td>
+  	<td> DESARROLLA APLICACIONES CON EL CLIENTE</td>
+
+  </tr>
+
+   <tr>
+  	<td> 12-1</td>
+  	<td> FISICA 1</td>
+  	<td> CONSTRUYE PAGINAS WEB</td>
+  	<td> CONSTRUYE PAGINAS WEB</td>
+  	<td> </td>
+  	<td> DESARROLLA APLICACIONES CON EL CLIENTE</td>
+
+  </tr>
+
+   <tr>
+  	<td> 1-2</td>
+  	<td> CELDA 2</td>
+  	<td> ECOLOGIA</td>
+  	<td> CONSTRUYE PAGINAS WEB</td>
+  	<td> </td>
+  	<td> DESARROLLA APLICACIONES CON EL CLIENTE</td>
+
+  </tr>
+
+   <tr>
+  	<td> 2-3</td>
+  	<td> CELDA 2</td>
+  	<td> ECOLOGIA</td>
+  	<td> </td>
+  	<td> </td>
+  	<td> ECOLOGIA</td>
+
+
+  </table><BR>--->
+  <!--<a href="https://www.google.com.mx"><img src="imagenGoogle.jpg" width="10%" height="5%"> </a>
+
+  <BR>
+  
+  <footer>@ pie de la pagina</footer>
+
+  </body>
+  </html>--->
+  <section id="main-content">
+ <article>
+ <center>
+ <iframe id="prueba" name="contenido" scrolling="no" src="Complementos/Principal2.html"
+width="1200" height="545" frameborder="0" style="border:none" allowfullscreen></iframe>
+<div class="content" >
+ <center><p >Comunicate con nosotros para obtener productos de calidad</p>
+
+<footer id="main-footer">
+<p>&copy;Contactanos: latorreismael.30@gmail.com o al num 7721252250</p>
+<center>
+<footer>
+
+ <a href="https://www.google.com/" target="_blank">
+ <img src="Complementos/YT.png" width="5%" hspace="20"> <a href="https://www.youtube.com/"><img src="Complementos/Facebook.png" width="5%" hspace="20"> <img src="Complementos/Instagram.png" width="5%" hspace="20">
+ <p><center>© pie de la página</center></p>
+ </a>
+
+ </footer>
+</center>
+</footer>
+
+</center>
+</div>
+ </center>
+ </article>
+ </section>
+ </body>
+</html>
+<!

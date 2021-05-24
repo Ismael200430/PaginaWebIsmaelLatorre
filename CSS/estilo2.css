@@ -1,0 +1,31 @@
+head{
+	background-color:#D66135;
+
+
+}
+body{
+	background-color:#D66135;
+	/*background-image: url(imagenJordan.jpg);*/
+	background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+h1{
+background-color:#D66135;
+
+}
+article{
+	background-color: aqua;
+
+}
+section{
+	background-color:#D66135;
+}
+nav{
+	background: #D66135;
+	color: red;
+}
+h2{
+	background-color:#3574D6;
+}
